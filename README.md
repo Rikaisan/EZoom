@@ -1,7 +1,5 @@
 # EZoom - The Automatic Zoom Client
 
-## Description
-
 EZoom is a Python application that lets you automate joining your meetings, it helps you join the specified meeting in the config with the press of a button!
 
 All you have to do is configure your schedule and then run the python script!  
@@ -9,11 +7,14 @@ If successful, the zoom app will launch and automatically join the meeting sched
 If no meeting is defined, an error will appear:  
 ![Error Preview](https://i.imgur.com/gVdBKrV.png)
 
----
+## Features
+
+-   [x] Add automatic path generator
+-   [x] Add support for offsets
+-   [x] Add support for password meetings
+-   [ ] Make a tool for generating schedules  
 
 ## Setup
-
-###
 
 **This project requires Python 3.9 or later to be installed**
 
@@ -28,8 +29,6 @@ If no meeting is defined, an error will appear:
     - Go to EZoom's `config.json` file and change the `USERNAME` field to match yours.
     - Set `use_custom_path` to `true`
     - In case you use another letter for your System Disk or use a custom installation path, specify it in the config file.
-
----
 
 ## Configuration
 
@@ -60,8 +59,6 @@ If you set more than `60` minutes, the program will automatically change the cor
     | ---------------- | ---------------------- |
     | 14:30            | 13:25                  |
     | 09:00            | 07:55                  |
-
----
 
 ## Setting up your Schedule
 
@@ -104,8 +101,6 @@ A valid schedule would look something like this:
 	}
 }
 ```
-
----
 
 ## Meetings with password
 
@@ -153,13 +148,4 @@ To get this link, while in a meeting, click the arrow on the members button and 
 
 ---
 
-## Features
-
--   [x] Add automatic path generator
--   [x] Add support for offsets
--   [x] Add support for password meetings
--   [ ] Make a tool for generating schedules
-
----
-
-Feel free to send suggestions or feedback to feedback@rikaisan.com!
+Feel free to send suggestions and feedback to feedback@rikaisan.com!
