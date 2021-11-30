@@ -9,10 +9,10 @@ If no meeting is defined, an error will appear:
 
 ## Features
 
--   [x] Add automatic path generator
--   [x] Add support for offsets
--   [x] Add support for password meetings
--   [ ] Make a tool for generating schedules  
+-   [x] Automatically define Zoom path
+-   [x] Support for offsets
+-   [x] Support for password meetings
+-   [ ] Tool for generating schedules  
 
 ## Setup
 
