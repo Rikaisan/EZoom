@@ -1,0 +1,11 @@
+{
+  "sys_disk": "C",
+  "custom_path": {
+    "use_custom_path": false,
+    "path": "C:/Users/USERNAME/AppData/Roaming/Zoom/bin/Zoom.exe"
+  },
+  "offsets": {
+    "start": -5,
+    "end": -5
+  }
+}

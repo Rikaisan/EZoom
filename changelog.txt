@@ -1,0 +1,11 @@
+v1.0:
+    - First Release
+v2.0:
+    - Added the option to offset the start and end time of meetings
+v3.0:
+    - Added the option to join meetings that require a password
+    - Removed the "username" field in the config
+    - EZoom now automatically gets the required username
+v3.1:
+    - Changed the method the program checks if the user is in the time interval
+    - Fixed a bug that allowed users to join a class before time in very specific situations
